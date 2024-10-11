@@ -140,18 +140,6 @@ body {
     display:block;
 }
 
-@media (max-height: 800px) {
-    .welcome-image {
-        margin-top:600px;
-    }
-    .footer-content {
-        margin-bottom:600px;
-    }
-    #about {
-        padding-top:300px;
-    }
-}
-
 /* Footer Section with Bottom Image Fade In */
 .footer-hero {
     height: 100vh;
