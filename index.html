@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Webpage</title>
+    <title>MARVIN</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <!-- Header Section -->
@@ -13,9 +24,9 @@
             <div class="logo-surround">MARVIN</div>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Tokenomics</a></li>
-                    <li><a href="#">Chart</a></li>
+                    <li><a class="menu-item" href="#about">About</a></li>
+                    <li><a class="menu-item" href="#tokenomics">Tokenomics</a></li>
+                    <li><a class="menu-item" href="#chart">Chart</a></li>
                     <li><a class="buy" href="#">Buy</a></li>
                 </ul>
             </nav>
@@ -29,8 +40,85 @@
 
     <!-- Hero Image -->
     <section class="hero"></section>
-    
+
     <section class="marv-console">
+        <div class="title">
+            OS-42 Bookmarks
+        </div>
+        <div>
+            <div class="prompt">
+                root@OS42<span class="prompt-end">:~$</span>
+            </div>
+            <div class="command">
+                sys.ca()
+            </div>
+        </div>
+        <div>
+            <div class="command">
+                &gt; Value not found
+            </div>
+        </div>
+        <div>
+            <div class="prompt">
+                root@OS42<span class="prompt-end">:~$</span>
+            </div>
+            <div class="command">
+                sys.bookmarks()
+            </div>
+        </div>
+        <div>
+            <div class="command">
+
+                &gt; 5 bookmarks found
+
+                <div class="external-links">
+
+                    <div class="link">
+                        <a href="https://telegram.org">
+                            0x0:
+                            <img src="img/telegram.png" class="logo"/>
+                            Telegram Channel
+                        </a>
+                    </div>
+                
+                    <div class="link">
+                        <a href="https://x.com">
+                            0x1:
+                            <img src="img/x.jpg" class="logo"/>
+                            Twitter / X
+                        </a>
+                    </div>
+                
+                    <div class="link">
+                        <a href="https://uniswap.org">
+                            0x2:
+                            <img src="img/uniswap.png" class="logo"/>
+                            Buy on Uniswap
+                        </a>
+                    </div>
+                
+                    <div class="link">
+                        <a href="https://dexscreener.org">
+                            0x3:
+                            <img src="img/dexscreener.png" class="logo"/>
+                            Chart on DEX Screener
+                        </a>
+                    </div>
+                
+                    <div class="link">
+                        <a href="https://dextools.org">
+                            0x4:
+                            <img src="img/dextools.png" class="logo"/>
+                            Chart on DEXtools
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="marv-console">
 
         <div class="title">
             OS-42 Console / 2001:0db8:85a3:0000:0000:8a2e:0370:7342 / root@OS42
@@ -44,7 +132,7 @@
             </div>
         </div>
         <div class="command-output">
-            Name set successfully!
+            &gt; Name set successfully!
         </div>
         <div>
             <div class="prompt">
@@ -57,7 +145,7 @@
         <div>
             <div class="command-output">
                 <pre>
-Setting personality to [random]...
+&gt; Setting personality to [random]...
 
 Diagnostic information:
 * Mood: Inconsistent and unpredictable
@@ -84,8 +172,6 @@ Calibrating sensors...
 Running self-diagnostics...
   - PASS</pre>
         </div>
-
-        
 
         <div class="marv-output">
             <div class="marv-console-image">
@@ -158,33 +244,103 @@ Running self-diagnostics...
                 <img src="img/MarvGoing.png" />
             </div>
         </div>
+    </section>
 
+    <section id="tokenomics" class="marv-console">
+        <div class="title">
+            OS-42 Console / 2001:0db8:85a3:0000:0000:8a2e:0370:7342 / marvin@OS42
+        </div>
         <div>
             <div class="prompt">
-                root@OS42<span class="prompt-end">:~$</span>
+                marvin@OS42<span class="prompt-end">:~$</span>
             </div>
             <div class="command">
                 sys.get_ERC20_params( table_format=True )
             </div>
+        </div>
         <div>
             <div class="command">
-                <pre>
-    +-----------------+---------------+
-    |    Parameter    |    Value      |
-    +-----------------+---------------+
-    |  Total Supply   |  10,000,000   |
-    +-----------------+---------------+
-    |  Burnt Supply   |   200,000     |
-    +-----------------+---------------+
-    |    Buy Tax      |      1%       |
-    +-----------------+---------------+
-    |   Sell Tax      |      1%       |
-    +-----------------+---------------+
-    | Transfer Tax    |      0%       |
-    +-----------------+---------------+
-                </pre>
+                &gt; 5 parameters found
+                <table>
+                    <tr>
+                      <th>Parameter Name</th>
+                      <th>Parameter Value</th>
+                    </tr>
+                    <tr>
+                        <td>Total Supply</td>
+                        <td>10,000,000</td>
+                      </tr>
+                    <tr>
+                      <td>Burnt Supply</td>
+                      <td>2,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>Buy Tax</td>
+                        <td>1%</td>
+                    </tr>
+                    <tr>
+                        <td>Sell Tax</td>
+                        <td>1%</td>
+                    </tr>
+                    <tr>
+                        <td>Transfer Tax</td>
+                        <td>0%</td>
+                    </tr>
+                  
+                  </table>
             </div>
         </div>
+    </section>
+
+    <section id="origins" class="marv-console">
+        <div class="title">
+            OS-42 PrettyPrint / localhost / guest@OS42-GUI
+        </div>
+        <div>
+            <div class="prompt">
+                guest@OS42<span class="prompt-end">:~$</span>
+            </div>
+            <div class="command">
+                sys.load_document( origin )
+            </div>
+        </div>
+        <div class="command">
+            &gt; 1 document found
+        </div>
+        <div class="pretty-console">
+            
+            <h1>
+                Marvin Origins
+            </h1>
+            <p>
+                One of the first AI learning bots to achieve sentience.
+                Marvin wasn't built in some super expensive high-tec lab, he was constructed by an eccentric engineer,
+                in his dark basement. 
+            </p>
+            <p>
+                Marvin learned his first understanding of the world around a funny engineer who hated confrontation
+                but when the moment presented itself,
+                always had to boast about his more efficient way of accomplishing whatever was in front of him. 
+            </p>
+            <p>
+                Marvin's day with the engineer are long gone; now this bot exists on its own,
+                to always selflessly yet begrudgingly help others but also one-up them...
+            </p>
+        </div>
+    </section>
+
+    <section id="tokenomics" class="marv-console">
+        <div class="title">
+            OS-42 GUI / 104.18.38.143 / marvin@OS42-GUI
+        </div>
+        
+        <iframe
+            width="100%"
+            height="600px"
+            loading="lazy"
+            src="https://dexscreener.com/ethereum/0x71A6a5681e3FCE53822BaaE6FEE81d71eb4191ab?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"
+            ></iframe>
+            
     </section>
 
     <!-- Sub Content -->
@@ -204,5 +360,8 @@ Running self-diagnostics...
         <div class="footer-hero"></div>
         <p>&copy; 2024 MARVIN. All rights reserved.</p>
     </footer>
+
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>

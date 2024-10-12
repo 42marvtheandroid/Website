@@ -281,6 +281,10 @@ body {
     fill: currentColor;
 }
 
+a:visited {
+    color:#fff;
+}
+
 .section-divider {
     width: 100%;
     height: 80px; 
