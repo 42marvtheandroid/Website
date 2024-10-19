@@ -202,7 +202,7 @@ Running self-diagnostics...
             root@OS42<span class="prompt-end">:~$</span>
         </div>
         <div class="command">
-            sys.explain(topic="$MARVIN")
+            sys.explain(context="Crypto", topic="$MARVIN")
         </div>
 
         <div class="marv-output">
@@ -241,7 +241,7 @@ Running self-diagnostics...
             </p>
             
             <p>
-                I’m going to go lay down unless you have some other stupid trivial task to ask of me.
+                I’m going to go and charge, unless you have some other stupid trivial task to ask of me?
             </p>
 
             <div class="marv-console-image">
@@ -282,32 +282,32 @@ Running self-diagnostics...
                         <td>Pending...</td>
                     </tr>
                     <tr>
-                        <td>Renounced</td>
-                        <td>Unknown</td>
-                    </tr>
-                    <tr>
                         <td>Liquidity State</td>
                         <td>Unknown</td>
                     </tr>
                     <tr>
+                        <td>Renounced</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
                         <td>Total Supply</td>
-                        <td>Unknown</td>
+                        <td>10,000,042</td>
                       </tr>
                     <tr>
                       <td>Burnt Supply</td>
-                      <td>Unknown</td>
+                      <td>42</td>
                     </tr>
                     <tr>
                         <td>Buy Tax</td>
-                        <td>Unknown</td>
+                        <td>0%</td>
                     </tr>
                     <tr>
                         <td>Sell Tax</td>
-                        <td>Unknown</td>
+                        <td>1%</td>
                     </tr>
                     <tr>
                         <td>Transfer Tax</td>
-                        <td>Unknown</td>
+                        <td>0%</td>
                     </tr>
                   
                   </table>
@@ -324,29 +324,26 @@ Running self-diagnostics...
                 guest@OS42<span class="prompt-end">:~$</span>
             </div>
             <div class="command">
-                sys.load_document( origin )
+                sys.load_document(origin)
             </div>
         </div>
         <div class="command">
             &gt; 1 document found
         </div>
         <div class="pretty-console">
-            
-            <h1>
-                Marvin Origins
-            </h1>
+            <div class="header">
+                /home/marvin/private/docs/00-1/marvin_origins.doc
+            </div>
             <p>
                 One of the first AI learning bots to achieve sentience.
                 Marvin wasn't built in some super expensive high-tec lab, he was constructed by an eccentric engineer,
                 in his dark basement. 
             </p>
             <p>
-                Marvin learned his first understanding of the world around a funny engineer who hated confrontation
-                but when the moment presented itself,
-                always had to boast about his more efficient way of accomplishing whatever was in front of him. 
+                Marvin learned his first understanding of the world around a funny engineer who hated confrontation. But when the moment presented itself, he always had to boast about his more efficient way of accomplishing whatever was in front of him.
             </p>
             <p>
-                Marvin's day with the engineer are long gone; now this bot exists on its own,
+                Marvin's days with the engineer are long gone; now this bot exists on its own,
                 to always selflessly yet begrudgingly help others but also one-up them...
             </p>
         </div>
@@ -362,7 +359,7 @@ Running self-diagnostics...
                 marvin@OS42<span class="prompt-end">:~$</span>
             </div>
             <div class="command">
-                sys.render_chart( "$MARVIN" )
+                sys.render_chart("$MARVIN")
             </div>
         </div>
 
