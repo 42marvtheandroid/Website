@@ -234,6 +234,23 @@ p {
     padding:20px 20px 10px 20px;
 }
 
+.asset-thumb {
+    width:100px;
+    margin:auto;
+}
+
+.asset-link {
+    color:#0d0;
+    text-align: center;
+}
+
+.asset-table {
+    width:50%
+}
+
+.asset-table td {
+    text-align: center;
+}
 
 table {
     font-family: monospace;
