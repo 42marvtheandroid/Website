@@ -21,8 +21,6 @@ body {
     padding: 10px 20px;
 }
 
-
-
 .header-bar .title {
     font-size: 24px;
 }
@@ -148,6 +146,7 @@ p {
     border-width: 4px 4px 4px 4px;
     border-style:outset;
     border-color: #ccc;
+    overflow: auto;
 }
 
 .marv-console .title {
@@ -184,6 +183,18 @@ p {
 .marv-console .prompt {
     color:#00c000;
     display:inline;
+}
+
+
+.marv-console .marv-console-image-large {
+    text-align: center;
+    max-width:500px;
+    margin:auto;
+}
+
+
+.marv-console .marv-console-image-large img {
+    width:100%;
 }
 
 .marv-console .marv-console-image {
@@ -244,6 +255,11 @@ p {
     text-align: center;
 }
 
+.asset-link:visited {
+    color: #0d0;
+    text-align: center;
+}
+
 .asset-table {
     width:50%
 }
@@ -251,6 +267,12 @@ p {
 .asset-table td {
     text-align: center;
 }
+
+.long-ca {
+    text-wrap:wrap;
+    color:#090;
+}
+
 
 table {
     font-family: monospace;
