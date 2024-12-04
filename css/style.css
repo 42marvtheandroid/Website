@@ -286,8 +286,40 @@ table {
     border: 1px dashed white;
     padding: 5px;
   }
+
+.step-by-step {
+    margin:20px;
+    color:#bbb;
+}
+
+.step-by-step .buy {
+    border:1px solid #006e00;
+    border-radius: 5px;
+    font-size:26px;
+    padding:5px 5px 5px 5px;
+    background-color:#006e00;
+    white-space: nowrap;
+    text-decoration: none;
+}
   
+.step-by-step ol {
+    list-style-type: square; /* Use decimal numbers for the list items */
+    margin-left: 20px; /* Indent the main list */
+}
+
+.step-by-step strong {
+    font-size:22px;
+    color:#bb0;
+}
   
+.step-by-step ol ul {
+    margin-left: 40px; /* Indent the nested lists */
+}
+  
+.step-by-step li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
 
 /* Footer Section with Gradient Fade */
 .footer-hero {
